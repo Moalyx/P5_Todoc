@@ -1,0 +1,25 @@
+<lint-module
+    format="1"
+    dir="C:\Users\33601\Desktop\todoc-master\app"
+    name=":app"
+    type="APP"
+    maven="todoc-master:app:"
+    gradle="7.0.0"
+    buildFolder="build"
+    bootClassPath="C:\Users\33601\AppData\Local\Android\Sdk\platforms\android-28\android.jar;C:\Users\33601\AppData\Local\Android\Sdk\build-tools\30.0.2\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-28">
+  <lintOptions
+      disable="RestrictedApi"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="RestrictedApi"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="release"/>
+</lint-module>

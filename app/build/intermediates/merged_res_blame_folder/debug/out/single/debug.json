@@ -24,6 +24,14 @@
         "source": "C:\\Users\\33601\\Desktop\\todoc-master\\app\\src\\main\\res\\drawable\\bkg_oval.xml"
     },
     {
+        "merged": "C:\\Users\\33601\\Desktop\\todoc-master\\app\\build\\intermediates\\merged_res\\debug\\layout-large_activity_main.xml.flat",
+        "source": "C:\\Users\\33601\\Desktop\\todoc-master\\app\\src\\main\\res\\layout-large\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\33601\\Desktop\\todoc-master\\app\\build\\intermediates\\merged_res\\debug\\layout-large_item_task.xml.flat",
+        "source": "C:\\Users\\33601\\Desktop\\todoc-master\\app\\src\\main\\res\\layout-large\\item_task.xml"
+    },
+    {
         "merged": "C:\\Users\\33601\\Desktop\\todoc-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_filter_list.xml.flat",
         "source": "C:\\Users\\33601\\Desktop\\todoc-master\\app\\src\\main\\res\\drawable\\ic_filter_list.xml"
     },
@@ -34,6 +42,10 @@
     {
         "merged": "C:\\Users\\33601\\Desktop\\todoc-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_delete.xml.flat",
         "source": "C:\\Users\\33601\\Desktop\\todoc-master\\app\\src\\main\\res\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\33601\\Desktop\\todoc-master\\app\\build\\intermediates\\merged_res\\debug\\layout-large_dialog_add_task.xml.flat",
+        "source": "C:\\Users\\33601\\Desktop\\todoc-master\\app\\src\\main\\res\\layout-large\\dialog_add_task.xml"
     },
     {
         "merged": "C:\\Users\\33601\\Desktop\\todoc-master\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",

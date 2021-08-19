@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.0.0" type="incidents">
+
+    <incident
+        id="MissingDefaultResource"
+        severity="fatal"
+        message="The dimen &quot;img_project_height&quot; in values-large has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier">
+        <fix-replace
+            description="Remove resource override"
+            replacement="">
+            <range
+                file="$APP/src/main/res/values-large/dimen.xml"
+                startOffset="948"
+                endOffset="994"/>
+        </fix-replace>
+        <location
+            file="$APP/src/main/res/values-large/dimen.xml"
+            line="23"
+            column="12"
+            startOffset="955"
+            endLine="23"
+            endColumn="37"
+            endOffset="980"/>
+    </incident>
+
+    <incident
+        id="MissingDefaultResource"
+        severity="fatal"
+        message="The dimen &quot;img_project_with&quot; in values-large has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier">
+        <fix-replace
+            description="Remove resource override"
+            replacement="">
+            <range
+                file="$APP/src/main/res/values-large/dimen.xml"
+                startOffset="1000"
+                endOffset="1044"/>
+        </fix-replace>
+        <location
+            file="$APP/src/main/res/values-large/dimen.xml"
+            line="24"
+            column="12"
+            startOffset="1007"
+            endLine="24"
+            endColumn="35"
+            endOffset="1030"/>
+    </incident>
+
+    <incident
+        id="MissingDefaultResource"
+        severity="fatal"
+        message="The dimen &quot;img_delete_height&quot; in values-large has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier">
+        <fix-replace
+            description="Remove resource override"
+            replacement="">
+            <range
+                file="$APP/src/main/res/values-large/dimen.xml"
+                startOffset="1050"
+                endOffset="1095"/>
+        </fix-replace>
+        <location
+            file="$APP/src/main/res/values-large/dimen.xml"
+            line="25"
+            column="12"
+            startOffset="1057"
+            endLine="25"
+            endColumn="36"
+            endOffset="1081"/>
+    </incident>
+
+    <incident
+        id="MissingDefaultResource"
+        severity="fatal"
+        message="The dimen &quot;img_delete_width&quot; in values-large has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier">
+        <fix-replace
+            description="Remove resource override"
+            replacement="">
+            <range
+                file="$APP/src/main/res/values-large/dimen.xml"
+                startOffset="1101"
+                endOffset="1145"/>
+        </fix-replace>
+        <location
+            file="$APP/src/main/res/values-large/dimen.xml"
+            line="26"
+            column="12"
+            startOffset="1108"
+            endLine="26"
+            endColumn="35"
+            endOffset="1131"/>
+    </incident>
+
+    <incident
+        id="MissingDefaultResource"
+        severity="fatal"
+        message="The dimen &quot;fab_add_task_width&quot; in values-large has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier">
+        <fix-replace
+            description="Remove resource override"
+            replacement="">
+            <range
+                file="$APP/src/main/res/values-large/dimen.xml"
+                startOffset="1151"
+                endOffset="1197"/>
+        </fix-replace>
+        <location
+            file="$APP/src/main/res/values-large/dimen.xml"
+            line="27"
+            column="12"
+            startOffset="1158"
+            endLine="27"
+            endColumn="37"
+            endOffset="1183"/>
+    </incident>
+
+    <incident
+        id="MissingDefaultResource"
+        severity="fatal"
+        message="The dimen &quot;fab_add_task_height&quot; in values-large has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier">
+        <fix-replace
+            description="Remove resource override"
+            replacement="">
+            <range
+                file="$APP/src/main/res/values-large/dimen.xml"
+                startOffset="1203"
+                endOffset="1250"/>
+        </fix-replace>
+        <location
+            file="$APP/src/main/res/values-large/dimen.xml"
+            line="28"
+            column="12"
+            startOffset="1210"
+            endLine="28"
+            endColumn="38"
+            endOffset="1236"/>
+    </incident>
+
+</incidents>

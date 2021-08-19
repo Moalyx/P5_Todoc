@@ -14,50 +14,50 @@ import java.util.concurrent.Executor;
 
 public class TaskViewModel extends ViewModel {
 
-    private final ProjectDataRepository projectDataSource;
-    private final TaskDataRepository taskDataSource;
+    private final ProjectDataRepository projectDataRepository;
+    private final TaskDataRepository taskDataRepository;
     private final Executor executor;
 
     @Nullable
     private LiveData<List<Project>> projects;
 
-    public TaskViewModel(ProjectDataRepository projectData, TaskDataRepository taskData, Executor executor) {
-        this.projectDataSource = projectData;
-        this.taskDataSource = taskData;
+    public TaskViewModel(ProjectDataRepository projectDataRepository, TaskDataRepository taskDataRepository, Executor executor) {
+        this.projectDataRepository = projectDataRepository;
+        this.taskDataRepository = taskDataRepository;
         this.executor = executor;
     }
 
     public void init() {
         if (getAllProjects() == null)
-            projects = projectDataSource.getAllProjects();
+            projects = projectDataRepository.getAllProjects();
     }
 
     //PROJECT
     public LiveData<List<Project>> getAllProjects() {
-        return projectDataSource.getAllProjects();
+        return projectDataRepository.getAllProjects();
     }
 
     public void insertProject(Project project) {
         executor.execute(() -> {
-            projectDataSource.insertProject(project);
+            projectDataRepository.insertProject(project);
         });
     }
 
     //TASK
     public LiveData<List<Task>> getAllTasks() {
-        return taskDataSource.getAllTasks();
+        return taskDataRepository.getAllTasks();
     }
 
 
     public void insertTask(Task task) {
         executor.execute(() -> {
-            taskDataSource.insertTask(task);
+            taskDataRepository.insertTask(task);
         });
     }
 
     public void deleteTask(Task task) {
         executor.execute(() -> {
-            taskDataSource.deleteTask(task);
+            taskDataRepository.deleteTask(task);
         });
     }
 

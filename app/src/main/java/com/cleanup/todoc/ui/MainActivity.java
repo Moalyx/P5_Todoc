@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity implements TasksAdapter.Dele
     /**
      * List of all projects available in the application
      */
-    //private Project[] allProjects = Project.getAllProjects();
 
     private List<Project> allProjects;
 
@@ -54,10 +53,7 @@ public class MainActivity extends AppCompatActivity implements TasksAdapter.Dele
     /**
      * The adapter which handles the list of tasks
      */
-    private TasksAdapter adapter = new TasksAdapter(tasks, this);
-
-    //private TasksAdapter adapter;
-
+    private TasksAdapter adapter;
 
     /**
      * The sort method to be used to display tasks
@@ -108,13 +104,11 @@ public class MainActivity extends AppCompatActivity implements TasksAdapter.Dele
         configureViewModel();
         getProjects();
         getTasks();
-
     }
 
     private void configureRecyclerView() {
         listTasks = findViewById(R.id.list_tasks);
         lblNoTasks = findViewById(R.id.lbl_no_task);
-
 
         adapter = new TasksAdapter(tasks, this);
         listTasks.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
