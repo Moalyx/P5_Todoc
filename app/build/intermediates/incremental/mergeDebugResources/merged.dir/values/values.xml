@@ -211,11 +211,6 @@
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
-    <dimen name="circle_height">130dp</dimen>
-    <dimen name="circle_width">130dp</dimen>
-    <dimen name="colorSpinner">40sp</dimen>
-    <dimen name="color_item_height">100dp</dimen>
-    <dimen name="color_item_width">100dp</dimen>
     <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
     <dimen name="compat_button_inset_vertical_material">6dp</dimen>
     <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
@@ -223,10 +218,6 @@
     <dimen name="compat_control_corner_material">2dp</dimen>
     <dimen name="compat_notification_large_icon_max_height">320dp</dimen>
     <dimen name="compat_notification_large_icon_max_width">320dp</dimen>
-    <dimen name="custom_dropdown">40sp</dimen>
-    <dimen name="custom_room_spinner">40sp</dimen>
-    <dimen name="delete_height">80dp</dimen>
-    <dimen name="delete_width">80dp</dimen>
     <dimen name="design_appbar_elevation">4dp</dimen>
     <dimen name="design_bottom_navigation_active_item_max_width">168dp</dimen>
     <dimen name="design_bottom_navigation_active_item_min_width">96dp</dimen>
@@ -273,6 +264,8 @@
     <dimen name="design_textinput_caption_translate_y">5dp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <dimen name="fab_add_task_height"/>
+    <dimen name="fab_add_task_width"/>
     <dimen name="fastscroll_default_thickness">8dp</dimen>
     <dimen name="fastscroll_margin">0dp</dimen>
     <dimen name="fastscroll_minimum_range">50dp</dimen>
@@ -283,6 +276,10 @@
     <item format="float" name="hint_alpha_material_light" type="dimen">0.38</item>
     <item format="float" name="hint_pressed_alpha_material_dark" type="dimen">0.70</item>
     <item format="float" name="hint_pressed_alpha_material_light" type="dimen">0.54</item>
+    <dimen name="img_delete_height"/>
+    <dimen name="img_delete_width"/>
+    <dimen name="img_project_height"/>
+    <dimen name="img_project_with"/>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
@@ -352,17 +349,7 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
-    <dimen name="participantSpinner">40sp</dimen>
     <dimen name="project_spinner"/>
-    <dimen name="roomSpinner">40sp</dimen>
-    <dimen name="saveButton">70sp</dimen>
-    <dimen name="selecParticipants">40sp</dimen>
-    <dimen name="selectColor">40sp</dimen>
-    <dimen name="selectRoom">40sp</dimen>
-    <dimen name="selectSubject">40sp</dimen>
-    <dimen name="selectTime">40sp</dimen>
-    <dimen name="subject_input">40sp</dimen>
-    <dimen name="timePickerButton">40sp</dimen>
     <dimen name="tooltip_corner_radius">2dp</dimen>
     <dimen name="tooltip_horizontal_padding">16dp</dimen>
     <dimen name="tooltip_margin">8dp</dimen>

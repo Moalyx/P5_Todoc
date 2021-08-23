@@ -5,7 +5,7 @@ android {
     defaultConfig {
         applicationId "com.cleanup.todoc"
         minSdkVersion 21
-        targetSdkVersion 28
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -16,9 +16,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    lintOptions {
-        disable 'RestrictedApi'
-    }
+//    lintOptions {
+//        checkReleaseBuilds false
+//    }
 
     compileOptions{
         targetCompatibility 1.8

@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\33601\\Desktop\\todoc-master\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\33601\\.gradle\\caches\\transforms-3\\d8fced5e85ea6b204dee4eb20cd07a89\\transformed\\design-28.0.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\33601\\.gradle\\caches\\transforms-3\\5d54299f847feae9bf3ef9bd24ac555e\\transformed\\design-28.0.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -13,32 +13,15 @@
                         "endOffsets": "172,306"
                     },
                     "to": {
-                        "startLines": "35,36",
+                        "startLines": "22,23",
                         "startColumns": "4,4",
-                        "startOffsets": "1873,1995",
+                        "startOffsets": "1282,1404",
                         "endColumns": "121,133",
-                        "endOffsets": "1990,2124"
+                        "endOffsets": "1399,1533"
                     }
                 },
                 {
-                    "source": "C:\\Users\\33601\\Desktop\\todoc-master\\app\\src\\main\\res\\values-large\\dimen.xml",
-                    "from": {
-                        "startLines": "14,19,18,27,26,24,25,22,23,2,4,3,12,5,10,16,11,13,9,15,7,17,8,6",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "645,877,825,1203,1151,1050,1101,948,1000,88,178,132,550,227,456,736,500,601,413,690,321,779,364,275",
-                        "endColumns": "43,46,50,51,50,49,48,50,48,42,47,44,49,46,42,41,48,42,41,44,41,44,47,44",
-                        "endOffsets": "684,919,871,1250,1197,1095,1145,994,1044,126,221,172,595,269,494,773,544,639,450,730,358,819,407,315"
-                    },
-                    "to": {
-                        "startLines": "9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "532,576,623,674,726,777,827,876,927,976,1019,1067,1112,1162,1209,1252,1294,1343,1386,1428,1473,1515,1560,1608",
-                        "endColumns": "43,46,50,51,50,49,48,50,48,42,47,44,49,46,42,41,48,42,41,44,41,44,47,44",
-                        "endOffsets": "571,618,669,721,772,822,871,922,971,1014,1062,1107,1157,1204,1247,1289,1338,1381,1423,1468,1510,1555,1603,1648"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\33601\\.gradle\\caches\\transforms-3\\140b3353e84ca5c636c59e1e695edb5b\\transformed\\appcompat-v7-28.0.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\33601\\.gradle\\caches\\transforms-3\\53a4bcef7da3d59c7dd5294ae472f41d\\transformed\\appcompat-v7-28.0.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -47,11 +30,28 @@
                         "endOffsets": "109,180,251,321,391,459,527,631,747"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,33,34",
+                        "startLines": "2,3,4,5,6,7,8,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,114,185,256,326,396,464,1653,1757",
+                        "startOffsets": "55,114,185,256,326,396,464,1062,1166",
                         "endColumns": "58,70,70,69,69,67,67,103,115",
-                        "endOffsets": "109,180,251,321,391,459,527,1752,1868"
+                        "endOffsets": "109,180,251,321,391,459,527,1161,1277"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\33601\\Desktop\\todoc-master\\app\\src\\main\\res\\values-large\\dimen.xml",
+                    "from": {
+                        "startLines": "15,14,12,13,10,11,2,4,3,5,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "601,549,448,499,346,398,88,178,132,227,275",
+                        "endColumns": "51,50,49,48,50,48,42,47,44,46,44",
+                        "endOffsets": "648,595,493,543,392,442,126,221,172,269,315"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "532,584,635,685,734,785,834,877,925,970,1017",
+                        "endColumns": "51,50,49,48,50,48,42,47,44,46,44",
+                        "endOffsets": "579,630,680,729,780,829,872,920,965,1012,1057"
                     }
                 }
             ]

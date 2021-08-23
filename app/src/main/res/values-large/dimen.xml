@@ -5,19 +5,7 @@
     <dimen name="lbl_project_name">35sp</dimen>
     <dimen name="project_spinner">45sp</dimen>
     <dimen name="txt_task_name">45sp</dimen>
-    <dimen name="selectTime">40sp</dimen>
-    <dimen name="timePickerButton">40sp</dimen>
-    <dimen name="selectRoom">40sp</dimen>
-    <dimen name="roomSpinner">40sp</dimen>
-    <dimen name="selecParticipants">40sp</dimen>
-    <dimen name="participantSpinner">40sp</dimen>
-    <dimen name="selectColor">40sp</dimen>
-    <dimen name="colorSpinner">40sp</dimen>
-    <dimen name="selectSubject">40sp</dimen>
-    <dimen name="saveButton">70sp</dimen>
-    <dimen name="subject_input">40sp</dimen>
-    <dimen name="custom_room_spinner">40sp</dimen>
-    <dimen name="custom_dropdown">40sp</dimen>
+
 
     <!-- Images -->
     <dimen name="img_project_height">130dp</dimen>

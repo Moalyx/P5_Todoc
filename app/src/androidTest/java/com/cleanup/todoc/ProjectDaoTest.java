@@ -23,14 +23,14 @@ import java.util.List;
 @RunWith(AndroidJUnit4.class)
 public class ProjectDaoTest {
 
-     private static Project projet1 = new Project(1, "Projet Tartampion", 0xFFEADAD1);
-     private static Project projet2 = new Project(2, "Projet Lucidia", 0xFFB4CDBA);
-     private static Project projet3 = new Project(3, "Projet Circus", 0xFFA3CED2);
+    private TodocDatabase database;
+
+     private static Project projet1 = new Project(1L, "Projet Tartampion", 0xFFEADAD1);
+     private static Project projet2 = new Project(2L, "Projet Lucidia", 0xFFB4CDBA);
+     private static Project projet3 = new Project(3L, "Projet Circus", 0xFFA3CED2);
 
     @Rule
     public InstantTaskExecutorRule instantTaskExecutorRule = new InstantTaskExecutorRule();
-    private TodocDatabase database;
-    private Project projects = Project.getProjectById(0);
 
     @Before
     public void initDatabase() {
@@ -82,6 +82,4 @@ public class ProjectDaoTest {
         projects = LiveDataTestUtil.getValue(this.database.projectDao().getAllProjects());
         assertTrue(projects.isEmpty());
     }
-
-
 }

@@ -7,7 +7,7 @@
 7    <uses-sdk
 8        android:minSdkVersion="21"
 8-->C:\Users\33601\Desktop\todoc-master\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="28" />
+9        android:targetSdkVersion="29" />
 9-->C:\Users\33601\Desktop\todoc-master\app\src\main\AndroidManifest.xml
 10    <!-- Ignore GoogleAppIndexingWarning is safe because we don't want the app to be indexable -->
 11    <application
@@ -15,7 +15,7 @@
 12        android:allowBackup="false"
 12-->C:\Users\33601\Desktop\todoc-master\app\src\main\AndroidManifest.xml:7:9-36
 13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-13-->[com.android.support:support-compat:28.0.0] C:\Users\33601\.gradle\caches\transforms-3\7172112ab543536ad4df127264db9ed7\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+13-->[com.android.support:support-compat:28.0.0] C:\Users\33601\.gradle\caches\transforms-3\6a36d6b6cb902eae8f53bb1430f89abb\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->C:\Users\33601\Desktop\todoc-master\app\src\main\AndroidManifest.xml:8:9-43
@@ -47,15 +47,15 @@
 29        </activity>
 30
 31        <provider
-31-->[android.arch.lifecycle:extensions:1.1.0] C:\Users\33601\.gradle\caches\transforms-3\a538a3b5ef6ddd6cad50ebc3374db11f\transformed\extensions-1.1.0\AndroidManifest.xml:23:9-27:43
+31-->[android.arch.lifecycle:extensions:1.1.0] C:\Users\33601\.gradle\caches\transforms-3\1c679a2714c8330759c352c880d30ee0\transformed\extensions-1.1.0\AndroidManifest.xml:23:9-27:43
 32            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
-32-->[android.arch.lifecycle:extensions:1.1.0] C:\Users\33601\.gradle\caches\transforms-3\a538a3b5ef6ddd6cad50ebc3374db11f\transformed\extensions-1.1.0\AndroidManifest.xml:24:13-83
+32-->[android.arch.lifecycle:extensions:1.1.0] C:\Users\33601\.gradle\caches\transforms-3\1c679a2714c8330759c352c880d30ee0\transformed\extensions-1.1.0\AndroidManifest.xml:24:13-83
 33            android:authorities="com.cleanup.todoc.lifecycle-trojan"
-33-->[android.arch.lifecycle:extensions:1.1.0] C:\Users\33601\.gradle\caches\transforms-3\a538a3b5ef6ddd6cad50ebc3374db11f\transformed\extensions-1.1.0\AndroidManifest.xml:25:13-68
+33-->[android.arch.lifecycle:extensions:1.1.0] C:\Users\33601\.gradle\caches\transforms-3\1c679a2714c8330759c352c880d30ee0\transformed\extensions-1.1.0\AndroidManifest.xml:25:13-68
 34            android:exported="false"
-34-->[android.arch.lifecycle:extensions:1.1.0] C:\Users\33601\.gradle\caches\transforms-3\a538a3b5ef6ddd6cad50ebc3374db11f\transformed\extensions-1.1.0\AndroidManifest.xml:26:13-37
+34-->[android.arch.lifecycle:extensions:1.1.0] C:\Users\33601\.gradle\caches\transforms-3\1c679a2714c8330759c352c880d30ee0\transformed\extensions-1.1.0\AndroidManifest.xml:26:13-37
 35            android:multiprocess="true" />
-35-->[android.arch.lifecycle:extensions:1.1.0] C:\Users\33601\.gradle\caches\transforms-3\a538a3b5ef6ddd6cad50ebc3374db11f\transformed\extensions-1.1.0\AndroidManifest.xml:27:13-40
+35-->[android.arch.lifecycle:extensions:1.1.0] C:\Users\33601\.gradle\caches\transforms-3\1c679a2714c8330759c352c880d30ee0\transformed\extensions-1.1.0\AndroidManifest.xml:27:13-40
 36    </application>
 37
 38</manifest>

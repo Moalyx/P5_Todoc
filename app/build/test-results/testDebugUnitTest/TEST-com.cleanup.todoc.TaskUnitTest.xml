@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.cleanup.todoc.TaskUnitTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-08-19T00:29:09" hostname="MÖ" time="0.003">
+<testsuite name="com.cleanup.todoc.TaskUnitTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-08-19T17:36:36" hostname="MÖ" time="0.004">
   <properties/>
-  <testcase name="test_az_comparator" classname="com.cleanup.todoc.TaskUnitTest" time="0.001"/>
-  <testcase name="test_recent_comparator" classname="com.cleanup.todoc.TaskUnitTest" time="0.0"/>
+  <testcase name="test_az_comparator" classname="com.cleanup.todoc.TaskUnitTest" time="0.002"/>
+  <testcase name="test_recent_comparator" classname="com.cleanup.todoc.TaskUnitTest" time="0.001"/>
   <testcase name="test_old_comparator" classname="com.cleanup.todoc.TaskUnitTest" time="0.0"/>
   <testcase name="test_za_comparator" classname="com.cleanup.todoc.TaskUnitTest" time="0.001"/>
   <testcase name="test_projects" classname="com.cleanup.todoc.TaskUnitTest" time="0.0"/>

@@ -27,7 +27,7 @@ public class TaskDaoTest {
     private TodocDatabase database;
 
     // DATA FOR TESTS
-    private static Project PROJECT = new Project(1, "Tartampion", 0xFFEADAD1);
+    private static Project PROJECT = new Project(1L, "Tartampion", 0xFFEADAD1);
     private static long PROJECT_ID = PROJECT.getId();
     private static Task task1 = new Task(PROJECT_ID, "test1", new Date().getTime());
     private static Task task2 = new Task(PROJECT_ID, "test2", new Date().getTime());
@@ -37,8 +37,10 @@ public class TaskDaoTest {
 
     @Before
     public void initDb() throws Exception {
-        this.database = Room.inMemoryDatabaseBuilder(InstrumentationRegistry.getContext(), TodocDatabase.class)
-                .allowMainThreadQueries().build();
+        this.database = Room.inMemoryDatabaseBuilder(InstrumentationRegistry.getContext(),
+                TodocDatabase.class)
+                .allowMainThreadQueries()
+                .build();
     }
 
     @After
@@ -47,13 +49,12 @@ public class TaskDaoTest {
     }
 
     @Test
-    public void insertOneProjectAndGetProjects () throws InterruptedException {
+    public void insertOneProjectAndGetProjects() throws InterruptedException {
         List<Project> projects = LiveDataTestUtil.getValue(this.database.projectDao().getAllProjects());
-        this.database.projectDao().insertProject(PROJECT);
         assertEquals(projects.size(), 0);
+        this.database.projectDao().insertProject(PROJECT);
         projects = LiveDataTestUtil.getValue(this.database.projectDao().getAllProjects());
         assertEquals(projects.size(), 1);
-
     }
 
     @Test
@@ -84,6 +85,5 @@ public class TaskDaoTest {
         this.database.taskDao().deleteTask(tasks.get(0));
         tasks = LiveDataTestUtil.getValue(this.database.taskDao().getAllTasks());
         assertEquals(tasks.size(), 1);
-        
     }
 }
