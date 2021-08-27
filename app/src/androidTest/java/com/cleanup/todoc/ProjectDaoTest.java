@@ -1,7 +1,4 @@
 package com.cleanup.todoc;
-
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
 import android.arch.core.executor.testing.InstantTaskExecutorRule;
@@ -25,9 +22,9 @@ public class ProjectDaoTest {
 
     private TodocDatabase database;
 
-     private static Project projet1 = new Project(1L, "Projet Tartampion", 0xFFEADAD1);
-     private static Project projet2 = new Project(2L, "Projet Lucidia", 0xFFB4CDBA);
-     private static Project projet3 = new Project(3L, "Projet Circus", 0xFFA3CED2);
+     private static final Project projet1 = new Project(1L, "Projet Tartampion", 0xFFEADAD1);
+     private static final Project projet2 = new Project(2L, "Projet Lucidia", 0xFFB4CDBA);
+     private static final Project projet3 = new Project(3L, "Projet Circus", 0xFFA3CED2);
 
     @Rule
     public InstantTaskExecutorRule instantTaskExecutorRule = new InstantTaskExecutorRule();
@@ -72,7 +69,7 @@ public class ProjectDaoTest {
 
     @Test
     public void insertAndDeleteProject() throws InterruptedException {
-        List<Project> projects = LiveDataTestUtil.getValue(this.database.projectDao().getAllProjects());
+        List<Project> projects;
         this.database.projectDao().insertProject(projet1);
         projects = LiveDataTestUtil.getValue(this.database.projectDao().getAllProjects());
         assertTrue(projects.get(0).getId() == projet1.getId()

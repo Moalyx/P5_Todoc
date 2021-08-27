@@ -36,10 +36,10 @@ public class TaskDao_Impl implements TaskDao {
       public void bind(SupportSQLiteStatement stmt, Task value) {
         stmt.bindLong(1, value.getId());
         stmt.bindLong(2, value.projectId);
-        if (value.getName() == null) {
+        if (value.name == null) {
           stmt.bindNull(3);
         } else {
-          stmt.bindString(3, value.getName());
+          stmt.bindString(3, value.name);
         }
         stmt.bindLong(4, value.creationTimestamp);
       }

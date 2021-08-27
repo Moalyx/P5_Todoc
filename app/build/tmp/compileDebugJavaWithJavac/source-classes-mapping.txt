@@ -2,7 +2,6 @@ com/cleanup/todoc/ui/TasksAdapter.java
  com.cleanup.todoc.ui.TasksAdapter
  com.cleanup.todoc.ui.TasksAdapter$DeleteTaskListener
  com.cleanup.todoc.ui.TasksAdapter$TaskViewHolder
- com.cleanup.todoc.ui.TasksAdapter$TaskViewHolder$1
 com/cleanup/todoc/model/Project.java
  com.cleanup.todoc.model.Project
 com/cleanup/todoc/ui/TaskViewModel.java
@@ -27,10 +26,6 @@ com/cleanup/todoc/model/Task.java
 com/cleanup/todoc/ui/MainActivity.java
  com.cleanup.todoc.ui.MainActivity
  com.cleanup.todoc.ui.MainActivity$1
- com.cleanup.todoc.ui.MainActivity$2
- com.cleanup.todoc.ui.MainActivity$3
- com.cleanup.todoc.ui.MainActivity$3$1
- com.cleanup.todoc.ui.MainActivity$4
  com.cleanup.todoc.ui.MainActivity$SortMethod
 com/cleanup/todoc/injections/ViewModelFactory.java
  com.cleanup.todoc.injections.ViewModelFactory

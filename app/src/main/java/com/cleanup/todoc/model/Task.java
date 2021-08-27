@@ -34,9 +34,8 @@ public class Task {
      * The name of the task
      */
     // Suppress warning because setName is called in constructor
-    @SuppressWarnings("NullableProblems")
     @NonNull
-    private String name;
+    public String name;
 
     /**
      * The timestamp when the task has been created
@@ -56,6 +55,7 @@ public class Task {
         this.setProjectId(projectId);
         this.setName(name);
         this.setCreationTimestamp(creationTimestamp);
+        this.name = name;
     }
 
     /**
@@ -121,14 +121,6 @@ public class Task {
      */
     private void setCreationTimestamp(long creationTimestamp) {
         this.creationTimestamp = creationTimestamp;
-    }
-
-    public long getProjectId() {
-        return projectId;
-    }
-
-    public long getCreationTimestamp() {
-        return creationTimestamp;
     }
 
     /**

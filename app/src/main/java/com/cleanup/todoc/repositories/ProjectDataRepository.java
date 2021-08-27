@@ -9,7 +9,7 @@ import java.util.List;
 
 public class ProjectDataRepository {
 
-    private ProjectDao projectDao;
+    private final ProjectDao projectDao;
 
     public ProjectDataRepository (ProjectDao projectDao)
     {
@@ -20,11 +20,4 @@ public class ProjectDataRepository {
     {
         return this.projectDao.getAllProjects();
     }
-
-    public void insertProject (Project project)
-    {
-        this.projectDao.insertProject(project);
-    }
-
-
 }

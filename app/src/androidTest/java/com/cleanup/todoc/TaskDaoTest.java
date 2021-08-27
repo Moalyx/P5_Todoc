@@ -27,16 +27,16 @@ public class TaskDaoTest {
     private TodocDatabase database;
 
     // DATA FOR TESTS
-    private static Project PROJECT = new Project(1L, "Tartampion", 0xFFEADAD1);
-    private static long PROJECT_ID = PROJECT.getId();
-    private static Task task1 = new Task(PROJECT_ID, "test1", new Date().getTime());
-    private static Task task2 = new Task(PROJECT_ID, "test2", new Date().getTime());
+    private static final Project PROJECT = new Project(1L, "Tartampion", 0xFFEADAD1);
+    private static final long PROJECT_ID = PROJECT.getId();
+    private static final Task task1 = new Task(PROJECT_ID, "test1", new Date().getTime());
+    private static final Task task2 = new Task(PROJECT_ID, "test2", new Date().getTime());
 
     @Rule
     public InstantTaskExecutorRule instantTaskExecutorRule = new InstantTaskExecutorRule();
 
     @Before
-    public void initDb() throws Exception {
+    public void initDb() {
         this.database = Room.inMemoryDatabaseBuilder(InstrumentationRegistry.getContext(),
                 TodocDatabase.class)
                 .allowMainThreadQueries()
@@ -44,7 +44,7 @@ public class TaskDaoTest {
     }
 
     @After
-    public void closeDb() throws Exception {
+    public void closeDb() {
         this.database.close();
     }
 
