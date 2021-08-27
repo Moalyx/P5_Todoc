@@ -16,15 +16,13 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-//    lintOptions {
-//        checkReleaseBuilds false
-//    }
 
     compileOptions{
         targetCompatibility 1.8
         sourceCompatibility 1.8
     }
 }
+
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
